@@ -1,0 +1,25 @@
+{
+  "name": "threejs",
+  "version": "1.0.0",
+  "author": "Hemerson Camargo",
+  "main": "boot.js",
+  "dependencies": {
+    "three": "^0.85.2",
+    "@types/three": "latest",
+    "stats": "^1.0.0",
+    "@types/stats": "latest"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "latest",
+    "http-server": "^0.10.0",
+    "typescript": "latest",
+    "webpack": "latest"
+  },
+  "scripts": {
+    "build": "webpack --bail --progress --profile --colors --watch",
+    "start": "http-server ./dist -a localhost -p 3000",
+    "test": "test"
+  },
+  "license": "ISC",
+  "description": ""
+}
